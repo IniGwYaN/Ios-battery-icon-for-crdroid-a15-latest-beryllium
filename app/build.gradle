@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.yan.ios26battery'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.yan.ios26battery'
+        minSdk 26
+        targetSdk 28
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
+
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+}

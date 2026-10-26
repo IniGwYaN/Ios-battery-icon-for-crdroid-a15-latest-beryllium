@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yan.ios26battery">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="28" />
+    <application
+        android:allowBackup="false"
+        android:label="iOS 26 Battery Renderer"
+        android:hasCode="true">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="iOS 26 pill battery renderer for crDroid Android 15" />
+        <meta-data android:name="xposedminversion" android:value="82" />
+    </application>
+</manifest>
